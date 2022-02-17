@@ -1,13 +1,14 @@
-import LeftColumn from './components/LeftColumn'
-import RightColumn from './components/RightColumn'
-import RigthMenu from './components/RightMenu'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
-export default function App () {
+function App () {
   return (
-    <div className='flex font-sans min-h-screen'>
-      <RigthMenu />
-      <LeftColumn />
-      <RightColumn />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
+
+export default App

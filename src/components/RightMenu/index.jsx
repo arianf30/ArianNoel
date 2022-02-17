@@ -1,4 +1,4 @@
-export default function RigthMenu () {
+export default function RightMenu () {
   return (
     <div className='flex h-screen bg-arian-negro border-r border-arian-grisclaro box-border'>
       <div className='h-4/4 w-20 hover:w-24 ease-in duration-300'>
