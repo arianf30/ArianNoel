@@ -25,10 +25,10 @@ export default function RightColumn () {
       {/* Párrafo 1 */}
       <div className='font-body pl-0 pr-0 lg:pl-8 lg:pr-12 text-justify text-sm leading-6'>
         <p className='mb-3'>
-          Tengo 31 años y vivo en Resistencia-Chaco.
+          Tengo 31 años y vivo en la ciudad de Resistencia-Chaco, Argentina.
         </p>
         <p className='mb-3'>
-          Soy un autodidacta y apasionado por la programación. Comencé a desarrollar webs desde que tuve mi primer PC poco después del año 2000. Juego mucho al pádel y me encanta cualquier tipo de actividad física. También me encanta hacer música.
+          Soy autodidacta y apasionado por la programación. Comencé a desarrollar webs desde que tuve mi primer PC poco después del año 2000. Juego mucho al pádel y me encanta cualquier tipo de actividad física. También me encanta hacer música.
         </p>
         <p className='mb-3'>
           Desarrollo en lenguaje JavaScript. Mi especialidad es React con código reutilizable, automatizado, performante y con buenas prácticas. Stack favorito: MERN. Gran experiencia en HTML5, CSS3, Javascript vanilla, Typescript, JQuery, PHP. Desarrollo de APIs con Node.js y Express.
