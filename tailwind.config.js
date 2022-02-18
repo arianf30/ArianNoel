@@ -23,7 +23,8 @@ module.exports = {
         naranja: '#DF7A40',
         rojo: '#DA332A',
         rosa: '#D63777',
-        lila: '#AD4BD6'
+        lila: '#AD4BD6',
+        scroll: 'rgba(74,72,74,0.6)'
       }
     },
     fontFamily: {
@@ -33,7 +34,17 @@ module.exports = {
       display: ['Oswald'],
       body: ['"Open Sans"']
     },
-    extend: {}
+    extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite'
+      },
+      keyframes: {
+        bars: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' }
+        }
+      }
+    }
   },
   plugins: [
     require('tailwind-scrollbar')

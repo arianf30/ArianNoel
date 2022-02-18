@@ -1,10 +1,11 @@
 export default function RightColumn () {
   return (
-    <div className='flex-auto p-8 bg-arian-grisoscuro2 text-arian-blanco2 max-h-screen overflow-y-auto border-r border-arian-grisclaro scrollbar-thin scrollbar-thumb-arian-grisclaro scrollbar-track-arian-grisoscuro2'>
+    <div className='flex-auto p-8 bg-arian-grisoscuro2 text-arian-blanco2 max-h-max md:max-h-screen md:overflow-y-auto border-r border-arian-grisclaro scrollbar-thin scrollbar-thumb-arian-scroll scrollbar-track-arian-grisoscuro2'>
 
       {/* Line - import AboutUs */}
       <p className='font-mono text-sm font-medium tracking-wide'><font className='text-arian-amarillo'>import</font> <font className='text-arian-rosa'>AboutUs</font> <font className='text-arian-amarillo'>from</font> <font className='text-arian-verde'>'./components/AboutUs'</font></p>
-      <p className='font-mono text-sm font-medium tracking-wide'><font className='text-arian-amarillo'>import</font> <font className='text-arian-rosa'>Formation</font> <font className='text-arian-amarillo'>from</font> <font className='text-arian-verde'>'./components/Formation'</font></p>
+      <p className='font-mono text-sm font-medium tracking-wide'><font className='text-arian-amarillo'>import</font> <font className='text-arian-rosa'>Experience</font> <font className='text-arian-amarillo'>from</font> <font className='text-arian-verde'>'./components/Experience'</font></p>
+      <p className='font-mono text-sm font-medium tracking-wide'><font className='text-arian-amarillo'>import</font> <font className='text-arian-rosa'>ThisApp</font> <font className='text-arian-amarillo'>from</font> <font className='text-arian-verde'>'./components/ThisApp'</font></p>
       <br />
 
       {/* Line - export default app */}
@@ -22,15 +23,18 @@ export default function RightColumn () {
 
       <br />
       {/* Párrafo 1 */}
-      <div className='font-body pl-8 pr-12 text-justify text-sm leading-6'>
+      <div className='font-body pl-0 pr-0 lg:pl-8 lg:pr-12 text-justify text-sm leading-6'>
         <p className='mb-3'>
-          Tengo 31 años, soy de Resistencia, Chaco. Apasionado por la programación desde que tuve mi primer PC. Juego mucho al pádel y me encanta cualquier tipo de actividad física. También me encanta hacer música.
+          Tengo 31 años y vivo en Resistencia-Chaco.
         </p>
         <p className='mb-3'>
-          En programación, mi especialidad es React con código reutilizable, automatizado, performante y con buenas prácticas. Stack favorito: MERN. Gran experiencia en HTML5, CSS3, Javascript vanilla, Typescript, JQuery, PHP. Desarrollo de APIs con Node.js y Express.
+          Soy un autodidacta y apasionado por la programación. Comencé a desarrollar webs desde que tuve mi primer PC poco después del año 2000. Juego mucho al pádel y me encanta cualquier tipo de actividad física. También me encanta hacer música.
         </p>
         <p className='mb-3'>
-          Experiencia con bases de datos relacionales y no relacionales. Preferiblemente MongoDB con mongoose y MySQL.
+          Desarrollo en lenguaje JavaScript. Mi especialidad es React con código reutilizable, automatizado, performante y con buenas prácticas. Stack favorito: MERN. Gran experiencia en HTML5, CSS3, Javascript vanilla, Typescript, JQuery, PHP. Desarrollo de APIs con Node.js y Express.
+        </p>
+        <p className='mb-3'>
+          Manejo bases de datos relacionales y no relacionales. Preferiblemente MongoDb con mongoose o MySQL.
         </p>
         <p className='mb-3'>
           Me adapto al entorno que sea, librerías, frameworks, metodologías ágiles, estoy en costante aprendizaje y adaptación en el mundo IT.
@@ -47,11 +51,11 @@ export default function RightColumn () {
 
       <br />
       {/* Párrafo 2 */}
-      <div className='font-body pl-8 pr-12 text-justify text-sm leading-6'>
+      <div className='font-body pl-0 pr-0 lg:pl-8 lg:pr-12 text-justify text-sm leading-6'>
         {/* Linea experiencia London Estudio */}
-        <div class='flex items-center mb-1'>
-          <div class='bg-arian-blanco rounded-full h-4 w-4' />
-          <div class='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>London Estudio <font className='text-arian-grisclaro2'>| mar. de 2016 - actualidad · 6 años</font></div>
+        <div className='flex items-center mb-1'>
+          <div className='bg-arian-blanco rounded-full h-2 w-2' />
+          <div className='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>London Estudio <font className='text-arian-grisclaro2'>| mar. de 2016 - actualidad · 6 años</font></div>
         </div>
         <p className='mb-3'>
           Cuento con una experiencia laboral de 6 años como Full Stack Developer en <a href='http://londonestudio.com' target='_blank' className='underline decoration-4' rel='noreferrer'>London Estudio</a>. Desarrollando decenas de sitios web front y backend (institucionales, funcionales, portales de noticias, e-commerce, sistemas de gestión online para empresas, radios, etc). Además inicié como socio igualitario y encargado del Área Digital de la Agencia.
@@ -68,31 +72,23 @@ export default function RightColumn () {
         </p>
 
         {/* Linea experiencia London Manager */}
-        <div class='flex items-center mb-1 mt-6'>
-          <div class='bg-arian-blanco rounded-full h-4 w-4' />
-          <div class='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>London Manager <font className='text-arian-grisclaro2'>| ene. de 2017 - actualidad · 5 años 2 meses</font></div>
+        <div className='flex items-center mb-1 mt-6'>
+          <div className='bg-arian-blanco rounded-full h-2 w-2' />
+          <div className='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>London Manager <font className='text-arian-grisclaro2'>| ene. de 2017 - actualidad · 5 años 2 meses</font></div>
         </div>
         <p className='mb-3'>
-          Por la gran demanda de sistemas de gestión que tiene la agencia, creamos un socio online y offline para empresas de distintos rubros (comercios, fabricantes, gastronómicos, etc). Actualmente la aplicación cuenta con una versión Beta próxima a desplegarse y creada con el stack MERN.
+          Por la gran demanda de sistemas de gestión que tiene la agencia, creamos un socio online y offline para empresas de distintos rubros (comercios, fabricantes, gastronómicos, etc). Actualmente la aplicación cuenta con 32 puntos de ventas activos. La versión Beta próxima a desplegarse fue creada con stack MERN.
         </p>
 
         {/* Linea experiencia London Manager */}
-        <div class='flex items-center mb-1 mt-6'>
-          <div class='bg-arian-blanco rounded-full h-4 w-4' />
-          <div class='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>Coderhouse <font className='text-arian-grisclaro2'>| oct. 2021 - actualidad · 5 meses</font></div>
+        <div className='flex items-center mb-1 mt-6'>
+          <div className='bg-arian-blanco rounded-full h-2 w-2' />
+          <div className='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>Coderhouse <font className='text-arian-grisclaro2'>| oct. 2021 - actualidad · 5 meses</font></div>
         </div>
         <p className='mb-3'>
-          Luego de participar en cursos de Coderhouse para actualizar conocimientos, y quedar dentro del top de mejores alumnos, apliqué para ser parte del team de tutores del curso de React Js.
+          PArticipé en cursos de Coderhouse para actualizar conocimientos, y al quedar dentro del top de mejores alumnos pude aplicar para ser tutor. Actualmente del curso de React Js.
           <br />
-          Mis tareas son:
-          <br />
-          - Corregir los desafíos de todas las clases y una pre-entrega del proyecto final, basados en la creación de un e-commerce.
-          <br />
-          - Tomar asistencia en las clases y brindar soporte al profesor y los alumnos durante la misma.
-          <br />
-          - Llevar un seguimiento del alumno y apoyar en su aprendizaje y experiencia con React.
-          <br />
-          - Estar disponible para responder dudas y consultas sobre los trbajos.
+          Algunas tareas son: corregir desafíos y entregas; tomar asistencia en las clases y brindar soporte al profesor y los alumnos durante la misma; brindar soporte; etc.
         </p>
 
       </div>
@@ -107,23 +103,25 @@ export default function RightColumn () {
 
       <br />
       {/* Párrafo 3 */}
-      <div className='font-body pl-8 pr-12 text-justify text-sm leading-6'>
+      <div className='font-body pl-0 pr-0 lg:pl-8 lg:pr-12 text-justify text-sm leading-6'>
         <p className='mb-3'>
-          Actualmente estoy en búsqueda de un nuevo desafío laboral. Para esto suelo necesitar enviar mi CV y por ello me pregunté:<br />-¿para qué tener uno en formato de PDF siendo un Web Developer?
+          Actualmente estoy en búsqueda de un nuevo desafío laboral. Para esto necesito tener mi CV actualizado y por ello me pregunté:<br />—Siendo Web Developer, ¿por qué tendría un clásico CV en formato PDF?
         </p>
         <p className='mb-3'>
-          En programación, mi especialidad es React con código reutilizable, automatizado, performante y con buenas prácticas. Stack favorito: MERN. Gran experiencia en HTML5, CSS3, Javascript vanilla, Typescript, JQuery, PHP. Desarrollo de APIs con Node.js y Express.
+          La App por el momento es estática, desarrollada en React con Vite.js y Tailwind CSS.
         </p>
         <p className='mb-3'>
-          Experiencia con bases de datos relacionales y no relacionales. Preferiblemente MongoDB con mongoose y MySQL.
-        </p>
-        <p className='mb-3'>
-          Me adapto al entorno que sea, librerías, frameworks, metodologías ágiles, estoy en costante aprendizaje y adaptación en el mundo IT.
+          El proyecto está compartido en <a href='https://github.com/arianf30/ArianNoel' target='_blank' className='underline decoration-4' rel='noreferrer'>Github</a> y está deployado en Vercel.
         </p>
       </div>
 
-      <div className='flex items-baseline m-8 mb-4 border-b border-arian-grisclaro' />
-
+      <p className='font-mono text-sm font-medium tracking-wide mt-5'>
+        {/* Line 3 */}
+        <font className='text-arian-grisclaro2 pl-4'>)</font>
+        <br />
+        {/* Line 4 */}
+        <font className='text-arian-grisclaro2'>{'}'}</font>
+      </p>
     </div>
   )
 }
