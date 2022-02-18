@@ -4,6 +4,7 @@ export default function Skills () {
   return (
     <div className='pl-4 pr-8'>
       <ItemSkill width='w-10/12' name='JavaSript' />
+      <ItemSkill width='w-9/12' name='TypeScript' />
       <ItemSkill width='w-10/12' name='React' />
       <ItemSkill width='w-8/12' name='Node.js' />
       <ItemSkill width='w-9/12' name='Express.js' />

@@ -111,7 +111,7 @@ export default function RightColumn () {
           La App por el momento es estática, desarrollada en React con Vite.js y Tailwind CSS.
         </p>
         <p className='mb-3'>
-          El proyecto está compartido en <a href='https://github.com/arianf30/ArianNoel' target='_blank' className='underline decoration-4' rel='noreferrer'>Github</a> y está deployado en Vercel.
+          El proyecto está compartido en <a href='https://github.com/arianf30/ArianNoel' target='_blank' className='underline decoration-4' rel='noreferrer'>Github</a> y deployado en Vercel.
         </p>
       </div>
 
