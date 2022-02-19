@@ -68,7 +68,7 @@ export default function RightColumn () {
           <a href='https://maraluga.com' target='_blank' className='text-arian-lila italic' rel='noreferrer'>Maraluga Pádel</a>,{' '}
           <a href='https://femechacosalud.com/' target='_blank' className='text-arian-lila italic' rel='noreferrer'>FemeChaco</a>,{' '}
           <a href='http://saboratto.com/' target='_blank' className='text-arian-lila italic' rel='noreferrer'>Saboratto</a>,{' '}
-          <a href='http://chaco365.com/' target='_blank' className='text-arian-lila italic' rel='noreferrer'>Chaco365</a>, etc...
+          <a href='http://chaco365.com/' target='_blank' className='text-arian-lila italic' rel='noreferrer'>Chaco365</a>, entre otros...
         </p>
 
         {/* Linea experiencia London Manager */}
@@ -86,7 +86,7 @@ export default function RightColumn () {
           <div className='flex-1 ml-3 mt-1 font-medium text-arian-blanco'>Coderhouse <font className='text-arian-grisclaro2'>| oct. 2021 - actualidad · 5 meses</font></div>
         </div>
         <p className='mb-3'>
-          PArticipé en cursos de Coderhouse para actualizar conocimientos, y al quedar dentro del top de mejores alumnos pude aplicar para ser tutor. Actualmente del curso de React Js.
+          Participé en cursos de Coderhouse para actualizar conocimientos, y al quedar dentro del top de mejores alumnos pude aplicar para ser tutor. Actualmente del curso de React Js.
           <br />
           Algunas tareas son: corregir desafíos y entregas; tomar asistencia en las clases y brindar soporte al profesor y los alumnos durante la misma; brindar soporte; etc.
         </p>
